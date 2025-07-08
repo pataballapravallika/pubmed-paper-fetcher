@@ -37,32 +37,39 @@ A Python CLI tool to fetch research papers from [PubMed](https://pubmed.ncbi.nlm
 ## 🚀 Installation
 
 ### 1. Clone the repo
+```bash
          - git clone https://github.com/pataballapravallika/pubmed-paper-fetcher.git
          - cd pubmed-paper-fetcher
+```
 ### 2. Install Poetry (if not already installed)
-pip install poetry
+```bash
+    pip install poetry
+```
 ![Screenshot (333)](https://github.com/user-attachments/assets/2e057340-ae9f-43b8-9c59-671e00d7cccf)
 
 ### 3. Install dependencies
-
-- poetry install
----
+``` bash
+    poetry install
+```
 ## 🧪 Usage
-
+``` bash
 - poetry run get-papers-list "your pubmed query here" --file output.csv --debug
+```
 ## 🔧 Options
 ### Flag	Description
---file / -f	File name to save CSV output
---debug / -d	Enable debug logs
---help / -h	Show help message
-
+``` bash
+-file / -f	File name to save CSV output
+-debug / -d	Enable debug logs
+-help / -h	Show help message
+```
 ## 🔍 Example
 ``` bash 
    - poetry run get-papers-list "Pfizer OR Moderna 2023" --file results.csv --debug
 ```
 ### 🧪 Running Tests
-
+```bash 
 - poetry run pytest
+```
 ![Screenshot (332)](https://github.com/user-attachments/assets/83a18f89-ba9b-410f-a1fa-5145ee47a6e5)
 
 ## ✅ Tests include:
@@ -71,7 +78,7 @@ pip install poetry
 - Live PubMed API fetch & CSV export
 
 ## 📁 Project Structure
-
+``` bash
 - pubmed_paper_fetcher/
     ├── __init__.py
     ├── cli.py             # CLI entry point
@@ -80,7 +87,7 @@ pip install poetry
     └── test_fetcher.py    # Pytest unit tests
     pyproject.toml         # Poetry config
     README.md              # This file
----
+```
 
 ## 🛠 Tools Used
 
