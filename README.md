@@ -77,6 +77,16 @@ help / -h	Show help message
 
 - Live PubMed API fetch & CSV export
 
+  --  Queried PubMed for "diabetes treatment 2024"
+
+  --  Found 20 articles
+  ![image](https://github.com/user-attachments/assets/e06c4b54-4725-4945-9e32-675d995205eb)
+
+
+✅ Filtered 3 with non-academic authors
+
+📄 Saved them to results.csv
+
 ## 📁 Project Structure
 ``` bash
 - pubmed_paper_fetcher/
