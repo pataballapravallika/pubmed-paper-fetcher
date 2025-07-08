@@ -57,10 +57,9 @@ pip install poetry
 --help / -h	Show help message
 
 ## 🔍 Example
-
-- poetry run get-papers-list "Pfizer OR Moderna 2023" --file results.csv --debug
-
----
+``` bash 
+   - poetry run get-papers-list "Pfizer OR Moderna 2023" --file results.csv --debug
+```
 ### 🧪 Running Tests
 
 - poetry run pytest
