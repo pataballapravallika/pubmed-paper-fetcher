@@ -78,7 +78,7 @@ pubmed_paper_fetcher/
     └── test_fetcher.py    # Pytest unit tests
     pyproject.toml         # Poetry config
     README.md              # This file
-
+---
 
 ## 🛠 Tools Used
 
@@ -86,17 +86,18 @@ pubmed_paper_fetcher/
 📦 Poetry – Dependency & packaging
 📊 Pandas – CSV export
 🧪 Pytest – Testing
-
+---
 ## 📝 License
 
 This project is licensed under the MIT License.
 See the LICENSE file for full details.
-
+---
 
 
 ## 🙋‍♀️ Author
 Made with ❤️ by Pravallika Pataballa
 
+---
 
 
 ## 💡 Contributing
