@@ -110,7 +110,7 @@ help / -h	Show help message
 
 - Understand how to structure a Python CLI using Poetry
 
-- Debug common environment issues (e.g., Windows/Poetry path, Git)
+- Debug common environment issues (Poetry path, Git)
 
 - Improve the quality and clarity of my README.md
 
