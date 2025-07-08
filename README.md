@@ -58,9 +58,9 @@ A Python CLI tool to fetch research papers from [PubMed](https://pubmed.ncbi.nlm
 ## 🔧 Options
 ### Flag	Description
 ``` bash
--file / -f	File name to save CSV output
--debug / -d	Enable debug logs
--help / -h	Show help message
+file / -f	File name to save CSV output
+debug / -d	Enable debug logs
+help / -h	Show help message
 ```
 ## 🔍 Example
 ``` bash 
@@ -68,7 +68,7 @@ A Python CLI tool to fetch research papers from [PubMed](https://pubmed.ncbi.nlm
 ```
 ### 🧪 Running Tests
 ```bash 
-- poetry run pytest
+  poetry run pytest
 ```
 ![Screenshot (332)](https://github.com/user-attachments/assets/83a18f89-ba9b-410f-a1fa-5145ee47a6e5)
 
@@ -95,26 +95,24 @@ A Python CLI tool to fetch research papers from [PubMed](https://pubmed.ncbi.nlm
 - 📦 Poetry – Dependency & packaging
 - 📊 Pandas – CSV export
 - 🧪 Pytest – Testing
----
+
 
 ## 📝 License
 
 - This project is licensed under the MIT License.
 - See the LICENSE file for full details.
----
 
 
 ## 🙋‍♀️ Author
 - Made with ❤️ by Pravallika Pataballa
 
----
 
 
 ## 💡 Contributing
 - Pull requests are welcome!
 - If you find bugs, want to improve heuristics, or add features — feel free to open an issue or PR.
 
----
+
 
 
 ## 🌟 Show Some Love
@@ -131,9 +129,8 @@ A Python CLI tool to fetch research papers from [PubMed](https://pubmed.ncbi.nlm
 ### Would you like me to also generate:
 
 
-
-- ✅ `LICENSE` file (MIT)
-- ✅ GitHub Actions file (`.github/workflows/tests.yml`)
+✅ `LICENSE` file (MIT)
+✅ GitHub Actions file (`.github/workflows/tests.yml`)
 
 Just 
 
