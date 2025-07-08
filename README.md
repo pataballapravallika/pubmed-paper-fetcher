@@ -106,6 +106,19 @@ help / -h	Show help message
 - 📊 Pandas – CSV export
 - 🧪 Pytest – Testing
 
+### I used ChatGPT as a collaborative assistant while building this project. The tool helped me:
+
+- Understand how to structure a Python CLI using Poetry
+
+- Debug common environment issues (e.g., Windows/Poetry path, Git)
+
+- Improve the quality and clarity of my README.md
+
+- Ensure my CSV output logic and filters were functioning as expected
+
+All implementation, logic, testing, and validation were done by me. I did not copy-paste any full solutions blindly — instead, I interacted with the LLM meaningfully to troubleshoot and iterate like a real-world developer would.
+
+--- 
 
 ## 📝 License
 
