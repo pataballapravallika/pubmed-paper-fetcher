@@ -37,18 +37,19 @@ A Python CLI tool to fetch research papers from [PubMed](https://pubmed.ncbi.nlm
 ## 🚀 Installation
 
 ### 1. Clone the repo
-          git clone https://github.com/pataballapravallika/pubmed-paper-fetcher.git
-          cd pubmed-paper-fetcher
+         - git clone https://github.com/pataballapravallika/pubmed-paper-fetcher.git
+         - cd pubmed-paper-fetcher
 ### 2. Install Poetry (if not already installed)
 pip install poetry
 ![Screenshot (333)](https://github.com/user-attachments/assets/2e057340-ae9f-43b8-9c59-671e00d7cccf)
 
 ### 3. Install dependencies
 
-poetry install
+- poetry install
+---
 ## 🧪 Usage
 
-poetry run get-papers-list "your pubmed query here" --file output.csv --debug
+- poetry run get-papers-list "your pubmed query here" --file output.csv --debug
 ## 🔧 Options
 ### Flag	Description
 --file / -f	File name to save CSV output
@@ -57,20 +58,22 @@ poetry run get-papers-list "your pubmed query here" --file output.csv --debug
 
 ## 🔍 Example
 
-poetry run get-papers-list "Pfizer OR Moderna 2023" --file results.csv --debug
+- poetry run get-papers-list "Pfizer OR Moderna 2023" --file results.csv --debug
+
+---
 ### 🧪 Running Tests
 
-poetry run pytest
+- poetry run pytest
 ![Screenshot (332)](https://github.com/user-attachments/assets/83a18f89-ba9b-410f-a1fa-5145ee47a6e5)
 
 ## ✅ Tests include:
-Non-academic affiliation detection logic
+- Non-academic affiliation detection logic
 
-Live PubMed API fetch & CSV export
+- Live PubMed API fetch & CSV export
 
 ## 📁 Project Structure
 
-pubmed_paper_fetcher/
+- pubmed_paper_fetcher/
     ├── __init__.py
     ├── cli.py             # CLI entry point
     ├── fetcher.py         # Core logic for search + filtering
@@ -82,36 +85,38 @@ pubmed_paper_fetcher/
 
 ## 🛠 Tools Used
 
-🔬 Biopython – PubMed API access via Entrez
-📦 Poetry – Dependency & packaging
-📊 Pandas – CSV export
-🧪 Pytest – Testing
+- 🔬 Biopython – PubMed API access via Entrez
+- 📦 Poetry – Dependency & packaging
+- 📊 Pandas – CSV export
+- 🧪 Pytest – Testing
 ---
+
 ## 📝 License
 
-This project is licensed under the MIT License.
-See the LICENSE file for full details.
+- This project is licensed under the MIT License.
+- See the LICENSE file for full details.
 ---
 
 
 ## 🙋‍♀️ Author
-Made with ❤️ by Pravallika Pataballa
+- Made with ❤️ by Pravallika Pataballa
 
 ---
 
 
 ## 💡 Contributing
-Pull requests are welcome!
-If you find bugs, want to improve heuristics, or add features — feel free to open an issue or PR.
+- Pull requests are welcome!
+- If you find bugs, want to improve heuristics, or add features — feel free to open an issue or PR.
 
+---
 
 
 ## 🌟 Show Some Love
-If you found this project helpful:
+- If you found this project helpful:
 
-⭐️ Star it
-📣 Share it
-🤝 Use it
+- ⭐️ Star it
+- 📣 Share it
+- 🤝 Use it
 
 
 
