@@ -71,14 +71,13 @@ Live PubMed API fetch & CSV export
 ## 📁 Project Structure
 
 pubmed_paper_fetcher/
-├── __init__.py
-├── cli.py             # CLI entry point
-├── fetcher.py         # Core logic for search + filtering
-tests/
-└── test_fetcher.py    # Pytest unit tests
-pyproject.toml         # Poetry config
-README.md              # This file
-
+    ├── __init__.py
+    ├── cli.py             # CLI entry point
+    ├── fetcher.py         # Core logic for search + filtering
+     tests/
+    └── test_fetcher.py    # Pytest unit tests
+    pyproject.toml         # Poetry config
+    README.md              # This file
 
 
 ## 🛠 Tools Used
