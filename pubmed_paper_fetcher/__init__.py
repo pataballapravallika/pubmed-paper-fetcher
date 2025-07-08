@@ -1,0 +1,1 @@
+from pubmed_paper_fetcher.cli import main
